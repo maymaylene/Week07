@@ -1,0 +1,145 @@
+.centerimagehome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+body {
+    background-color:rgb(57, 64, 57);
+}
+
+h1{
+    color:lemonchiffon;
+    border-style:double;
+    text-align: center;
+    font: size 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-width: 10px;
+    border-radius: 5px;
+    
+}
+
+h3{
+    color:lemonchiffon;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+/*Class Selector*/
+.first-paragraph{
+    color:rgb(129, 128, 124);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/*Class Selector*/
+.unlist{
+    text-align: center;
+    color: rgb(101, 100, 95);
+}
+
+
+ul{
+    display: inline-block; text-align: left;
+    font-family: cursive;
+    color: rgb(101, 100, 95);
+}
+
+/*Class Selector*/
+.center{
+     margin-left: auto;
+     margin-right: auto;
+     width: 30%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: blanchedalmond;
+        }
+
+
+table, th, td{border: 2px solid;}
+
+th{height: 40px;}
+
+td{height: 20px;}
+
+
+p{  color: rgb(121, 100, 95);
+    text-emphasis: 3px;
+    font-weight: bold; 
+}
+
+/*id Selector*/
+#secondpara{
+    text-align: center;
+    color: rgb(129, 128, 124);}
+
+
+form{
+    color:blanchedalmond;
+    text-align: center;
+    border: dashed;
+    border-width: 3px;
+    border-color: blanchedalmond;
+    font-family:cursive;
+    }
+
+/*Element Selector*/
+footer{
+    text-align: right;
+    color:rgb(129, 128, 124)
+    }
+
+
+button{
+   font-style: italic;
+   color: rgb(116, 90, 53);
+    }
+
+/* ---------------------------------------------------------------------------- */
+
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+        }
+
+
+.cookiespara{
+    text-align: center;
+    color: rgb(129, 128, 124);
+    font-size: larger;
+    }
+
+
+/* ----------------------------------------------------------------------------- */
+
+.appleimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+.applepiepara{
+    text-align: center;
+    color: rgb(129, 128, 124);
+    font-size: larger;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.cheesecakeimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+.cheesecakepara{
+    text-align: center;
+    color: rgb(129, 128, 124);
+    font-size: larger;
+}

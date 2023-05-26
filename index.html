@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Desserts</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <header><h1>Best Desserts!</h1> </header>
 
-   <img src="./images/desserts.jpeg" height="200" alt="Desserts"/>
+   <img src="./images/desserts.jpeg" height="200" alt="Desserts" class="centerimagehome"/>
    
    <main>
 
     <h3>Popular Desserts According to the Web!</h3>
 
-    <p>If you are a dessert enthusiast like me you will agree that these are the best desserts.
+    <p class="first-paragraph">If you are a dessert enthusiast like me you will agree that these are the best desserts.
          They work for all occations and are super easy to make!</p>
 
-    <ul>    
-    <li><a href="cheesecake.html">Chessecake</a></li>   <br>
-    <li> <a href="applepie.html">Apple Pie</a></li>     <br>
-    <li><a href="cookies.html">Cookies</a></li>         <br>
-    </ul>
+    <div class="unlist">
+        <ul>    
+            <li><a href="cheesecake.html">Chessecake</a></li>   <br>
+            <li> <a href="applepie.html">Apple Pie</a></li>     <br>
+            <li><a href="cookies.html">Cookies</a></li>         <br>
+         </ul>
+    </div>
 
-    <table>
+    <table class="center">
         <tr>
             <th>Deserts</th>
             <th>Bake Time</th>
@@ -38,7 +41,7 @@
         </tr>
         <tr>
             <td><a href="applepie.html">Apple Pie</a></td>
-            <td>1 Hour</td>
+            <td>60 Minutes</td>
             <td>8 Servigs</td>
         </tr>
         <tr>
@@ -49,14 +52,14 @@
 
     </table>
 
-    <p>Questions? Please leave a message!</p>
+    <p id="secondpara">Questions? Please leave a message!</p>
 
     <form>
         <div>
         First Name:
         <input type="text" placeholder="Enter your First Name"> <br>
         Last Name:
-        <input type="text" placeholder="'Enter your Last Name"> <br>
+        <input type="text" placeholder="Enter your Last Name"> <br>
         Email:
         <input type="text" placeholder="Example@email.com">     <br>
         </div>
